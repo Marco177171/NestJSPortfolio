@@ -1,0 +1,17 @@
+1 init backend project:
+  nest new backend
+
+2 install prisma in the new folder:
+  cd backend && npm install prisma
+
+3 initialize prisma
+  npx prisma init
+
+4 now you have prisma folder in backend. It contains prisma schema.
+We'll need a db. Let's use Docker to create one. From root folder:
+  touch docker-comose.yml
+
+5 add postgresql to docker-compose. See docker-compose.yml file
+
+6 Create .env file in root folder for env variables. Set user and password
+
